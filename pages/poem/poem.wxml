@@ -1,0 +1,21 @@
+<!--demo.wxml-->
+<view class="container">
+     <swiper class="index-swiper" indicator-dots="true" interval="3000" autoplay="ture" indicator-color="rgba(255, 255, 255, .2)" indicator-active-color="rgba(255, 255, 255, .7)"> 
+        <block wx:key="id" wx:for="{{list}}">
+            <swiper-item id="{{item.id}}" index="{{index}}" bindtap="redictAppDetail">
+                <view class='bone'>
+                    <view class='bone-header'>
+                        <text class="title">{{item.title}}</text>
+                        <text class="author">{{item.author}}</text>
+                        <view class='circle-left'></view>
+                        <view class='line-middle'></view>
+                        <view class='circle-right'></view>
+                    </view>
+                    
+                    <image mode="aspectFill" src="{{item.img_url}}" style="width:100%" />
+                </view>
+                
+            </swiper-item>
+        </block>
+    </swiper>
+</view>

@@ -1,0 +1,72 @@
+/*   index   swiper  */
+
+swiper.index-swiper {
+    /* position: relative; */
+    height: 986rpx;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    /* background: #fff; */
+  }
+
+  swiper .bone{
+      /* position: relative; */
+      /* height: 80%; */
+      width: 80%;
+      background: #fff;
+      margin: 0 auto;
+      border-radius: 4px;
+  }
+  
+  swiper image {
+    display: block;
+    width: 100%;
+  }
+
+  swiper .bone-header{
+    position: relative;
+    height: 224rpx;
+    text-align: center;
+    padding-top: 90rpx;
+  }
+
+  swiper .bone-header .circle-left{
+    position: absolute;
+    width: 36rpx;
+    height: 36rpx;
+    border-radius: 50%;
+    background-color: #5a85da;
+    bottom: 26rpx;
+    left: -18rpx;
+  }
+
+  swiper .bone-header .circle-right{
+    position: absolute;
+    width: 36rpx;
+    height: 36rpx;
+    border-radius: 50%;
+    background-color: #5a85da;
+    bottom: 26rpx;
+    right: -18rpx;
+  }
+
+  swiper .bone-header .line-middle{
+    position: absolute;
+    width:82%;
+    height:0;
+    left:9%;
+    bottom:38rpx;
+    border:1px dashed #e3e3e3;    
+  }
+
+  swiper .title{
+    display: block;
+    font-size: 34rpx;
+    color: #3d3d3d;
+    margin-bottom: 26rpx;
+  }
+
+  swiper .author{
+    font-size: 28rpx;
+    color: #737373;
+  }

@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container" bindtap="viewTap">
+    <image src="{{avatar}}" class="avatar"></image>
+    <text class="nickname">Hello , {{nickName}}</text>
+    <view class="introduction">
+        <text>属于你的诗俳！</text>
+    </view>
+</view>
